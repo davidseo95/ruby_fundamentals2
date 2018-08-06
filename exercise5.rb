@@ -1,6 +1,6 @@
 # exercise 5 !
 
-puts "Please enter temperature (in F): "
+print "Please enter temperature (in F): "
 
 temperature = gets.chomp
 
