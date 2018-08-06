@@ -5,7 +5,8 @@ puts "Please enter temperature (in F): "
 temperature = gets.chomp
 
 def convert(fahrenheit)
-  C = (fahrenheit.to_i - 32) * 5 / 9
+  celsius = (fahrenheit.to_i - 32) * 5 / 9
+  return celsius
 end
 
 converted_temp = convert(temperature)
