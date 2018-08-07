@@ -21,3 +21,9 @@ students[:cohort4] = 43
 keys = students.keys
 puts keys
 
+# displaying expanded classrooms
+students.update(students) do |key, value|
+  value * 1.05
+end
+
+display(students)
