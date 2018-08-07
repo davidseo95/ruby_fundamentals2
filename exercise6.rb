@@ -32,6 +32,9 @@ sorted_groceries = grocery_list.sort
 puts "Grocery list sorted in alphabetical order:"
 write_grocery_list(sorted_groceries)
 
-
+# removing salmon off the grocery list and output final list
+sorted_groceries.delete("salmon")
+puts "Final grocery list of this exercise:"
+write_grocery_list(sorted_groceries)
 
 
