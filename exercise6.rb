@@ -24,3 +24,7 @@ else
   puts "You don't need to pick up bananas today."
 end
 
+# displaying the second item of the grocery list
+puts "The second item on the grocery list is #{grocery_list[1]}."
+
+
