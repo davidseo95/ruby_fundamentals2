@@ -13,3 +13,7 @@ def display(hash)
 end
 
 display(students)
+
+# adding another key value
+students[:cohort4] = 43
+
