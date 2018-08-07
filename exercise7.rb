@@ -17,3 +17,7 @@ display(students)
 # adding another key value
 students[:cohort4] = 43
 
+# outputting all cohort names
+keys = students.keys
+puts keys
+
