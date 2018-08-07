@@ -27,4 +27,11 @@ end
 # displaying the second item of the grocery list
 puts "The second item on the grocery list is #{grocery_list[1]}."
 
+# output alphabetically-sorted grocery list
+sorted_groceries = grocery_list.sort
+puts "Grocery list sorted in alphabetical order:"
+write_grocery_list(sorted_groceries)
+
+
+
 
